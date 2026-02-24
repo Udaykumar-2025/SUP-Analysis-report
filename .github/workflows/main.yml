@@ -20,7 +20,7 @@ jobs:
       
       - name: Install dependencies
         run: |
-          pip install pandas google-genai python-dotenv plotly
+          pip install pandas google-genai python-dotenv plotly streamlit
       
       - name: Create .env file
         run: |
